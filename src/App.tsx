@@ -90,6 +90,7 @@ const App = (): JSX.Element => {
                         )}
                     />
                     <Route
+                        path="/"
                         render={() => (
                             <div className="screen">
                                 <h1>
