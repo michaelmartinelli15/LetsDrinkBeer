@@ -104,10 +104,6 @@ const App = (): JSX.Element => {
                                     </a>
                                 </h1>
                                 <h2>The jouney to a zillion begins with a single sip</h2>
-                                <img
-                                    src="https://pbs.twimg.com/profile_images/1369345510079934465/8l8X6jUA_400x400.jpg"
-                                    alt="Me and Dan on Mountain Time"
-                                />
                             </div>
                         )}
                     />
