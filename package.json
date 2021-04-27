@@ -28,7 +28,7 @@
     "lint": "eslint src/**/*.ts{,x}",
     "typescript": "tsc --noEmit",
     "format": "prettier --write {src/**/*.{ts,tsx},src/styling/*.css}",
-    "predeploy": "npm run build",
+    "predeploy": "sudo rm -r node_modules/.cache/gh-pages/ && npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
